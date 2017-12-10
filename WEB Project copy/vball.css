@@ -1,0 +1,43 @@
+			#page		{
+							margin-left: auto;				/* Another way to center the page */
+							margin-right: auto;
+							background-color: white;
+							width: auto;
+							
+						}
+			#header		{	clear: both;					/* Ensures that header appears by itself */
+							width: auto;
+							background-color: lightblue;
+							font-size: 24px;
+							text-align: center;
+							border: 1px solid black;
+							padding: 1px;
+						}
+			#footer		{	clear: both;					/* Ensures that footer appears by itself on a new line */
+							width: auto;
+							background-color: white;
+							text-align: center;
+							float: left;
+							border: 1px solid black;
+							text-align: center;
+							padding: 1px;
+						}
+
+			#left_content	{	
+							background-color: lightblue;
+							font-size: 24px;
+							border: 1px solid black;
+							width: 20%;
+							height: 600;									
+							float: left;
+							vertical-align: text-top;
+						}
+			#right_content	{	
+							background-color: white;
+							font-size: 18px;
+							width: 79%;
+							height: 600;										
+							text-align: left;
+							float: right;
+							vertical-align: text-top;
+						}
